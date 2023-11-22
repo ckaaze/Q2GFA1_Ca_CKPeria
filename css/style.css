@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+    color: white;
+}
+.links a{
+    margin-left: 1vw;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.icon{
+    background: url(../images/sprite3.png);
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+    
+}
+#facebook{background-position: -439px -146px;}
+#instagram{background-position: -221px;}
+#twitter{background-position: -66px -72px;}
+#youtube{background-position: -439px -221px;}
+
+#facebook, #instagram, #twitter, #youtube{
+    float: left;
+    opacity: 0.7;
+    transition: .5s;
+    margin-right: 10px;
+    
+}
+
+#bannerhead{
+    font-size: 50px;
+}
+.banner{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 10vw;
+    background-color: black;
+    padding: 5vw;
+}
+
